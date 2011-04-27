@@ -1,0 +1,19 @@
+Physical HDL
+============
+
+This is the source for a book on Hardware Description Languages -
+Verilog and VHDL.
+
+This book does not attempt to teach the details of each language as
+there are already plenty of excellent texts that do so.
+
+This book attempts to bridge the gap between the practice of coding in
+these languages and the machine interpretation of the code during
+synthesis - essential to designing efficient digital structures.
+
+This book illustrates the translation from code to hardware using
+real-life physical examples. All code provided in this book is
+released under the terms of the LGPL3 license.
+
+with metta,
+Shawn Tan.
