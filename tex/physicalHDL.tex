@@ -5,7 +5,7 @@
 \usepackage{lmodern}
 \usepackage{setspace}
 \usepackage{color}
-\usepackage{xcolor}
+% \usepackage{xcolor}
 \usepackage{fancyhdr}
 
 \usepackage{listings}
@@ -18,7 +18,7 @@
 % \DeclareCaptionFormat{hdl}{\colorbox{black}{\parbox{\textwidth}{#1#2#3}}}
 % \captionsetup[lstlisting]{format=hdl,labelfont=white,textfont=white}
 
-\usepackage{hyperref}
+% \usepackage{hyperref}
 % \usepackage{tocloft}
 
 \title{Physical HDL: A Graphical Approach}
@@ -36,6 +36,8 @@
 \onehalfspace
 
 \part{Designing the System}
+\label{PART:FASM}
+
 \chapter{Standard Flow}
 \section{Design Entry}
 \section{Functional Simulation}
@@ -51,6 +53,7 @@
 \section{Bottom Up}
 
 \part{Reviewing the Language}
+\label{PART:HDL}
 \chapter[Verilog]{Verilog Hardware Description Language}
 \section{Data Types}
 \section{Data Operators}
@@ -64,6 +67,7 @@
 \section{Data Structures}
 
 \part{Connecting the Dots}
+\label{PART:SYS}
 
 \include{async/async}
 
