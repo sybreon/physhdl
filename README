@@ -13,7 +13,9 @@ synthesis - essential to designing efficient digital structures.
 
 This book illustrates the translation from code to hardware using
 real-life physical examples. All code provided in this book is
-released under the terms of the LGPL3 license.
+released under the terms of the GPL3 license.
+
+The book itself is released under a Creative Commons BY-NC-SA license.
 
 with metta,
 Shawn Tan.

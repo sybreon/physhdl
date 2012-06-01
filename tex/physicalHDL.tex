@@ -1,0 +1,110 @@
+
+\documentclass[a4paper,11pt]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{color}
+% \usepackage{xcolor}
+\usepackage{fancyhdr}
+
+\usepackage{listings}
+% \usepackage{fancyvrb}
+\lstset{basicstyle=\small\ttfamily,columns=fixed,numbers=right,frame=Tb}
+\renewcommand{\lstlistingname}{HDL}
+
+% \usepackage{caption}
+% \DeclareCaptionFont{white}{\color{white}}
+% \DeclareCaptionFormat{hdl}{\colorbox{black}{\parbox{\textwidth}{#1#2#3}}}
+% \captionsetup[lstlisting]{format=hdl,labelfont=white,textfont=white}
+
+% \usepackage{hyperref}
+% \usepackage{tocloft}
+
+\title{Physical HDL: A Graphical Approach}
+\author{Shawn Tan\\ \tiny{PhD(Cantab), CEng MIET}}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\include{pre/preface}
+
+\mainmatter
+\onehalfspace
+
+\part{Designing the System}
+\label{PART:FASM}
+
+\chapter{Standard Flow}
+\section{Design Entry}
+\section{Functional Simulation}
+\section{Synthesis}
+\section{Functional Verification}
+\section{Place \& Route}
+\section{Timing Verification}
+\section{Tape Out}
+
+
+\chapter{My Way}
+\section{Top Down}
+\section{Bottom Up}
+
+\part{Reviewing the Language}
+\label{PART:HDL}
+\chapter[Verilog]{Verilog Hardware Description Language}
+\section{Data Types}
+\section{Data Operators}
+\section{Control Structures}
+\section{Data Structures}
+
+\chapter[VHDL]{Very High Speed Integrated Circuit Hardware Description Language}
+\section{Data Types}
+\section{Data Operators}
+\section{Control Structures}
+\section{Data Structures}
+
+\part{Connecting the Dots}
+\label{PART:SYS}
+
+\include{async/async}
+
+\chapter{Synchronous Logic}
+\section{Flip Flops}
+\section{Counters}
+\subsection{Binary}
+\subsection{Ring}
+\subsection{Gray}
+\section{Shift Registers}
+\subsection{Linear Feedback Shift Register}
+
+\chapter{Integer Arithmetic}
+\section{Adder}
+\subsection{Addition}
+\subsection{Subtraction}
+\subsection{Carry}
+\section{Multiplier}
+\section{Bit Logic}
+\subsection{Masking}
+\subsection{Set Bits}
+\subsection{Clear Bits}
+\subsection{Toggle Bits}
+
+\chapter{Finite State Machine}
+\section{Moore Machine}
+\section{Mealy Machine}
+
+\part{Simplifying the Circuit}
+
+\part{Verifying the Works}
+
+\chapter{Simulation Constructs}
+\chapter{Finshing Up}
+
+\backmatter
+% \tiny
+% \include{pre/fdl-1.3}
+
+\end{document}
