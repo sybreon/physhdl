@@ -12,10 +12,17 @@ these languages and the machine interpretation of the code during
 synthesis - essential to designing efficient digital structures.
 
 This book illustrates the translation from code to hardware using
-real-life physical examples. All code provided in this book is
-released under the terms of the GPL3 license.
+real-life physical examples. The idea is so that readers can develop a
+deeper understanding of the language and learn how to think like a
+synthesis tool after finishing this book.
+
+All VHDL and/or Verilog code provided with this book is released under
+the terms of the GPL3 license. The LaTeX source code for the book is
+released under the terms of the GFDL1.3 license.
 
 The book itself is released under a Creative Commons BY-NC-SA license.
+
+This book comes with no warranties whatsoever.
 
 with metta,
 Shawn Tan.
